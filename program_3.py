@@ -9,7 +9,7 @@ def weight_conversion(weight): #categorizing ship cost by weight
         shippingCost = 3.00
     elif 6 < weight <=10:
         shippingCost = 4.00
-    else 10 < weight :
+    elif 10 < weight :
         shippingCost = 4.75
     return shippingCost
 #-----------------------------------------------------------------
